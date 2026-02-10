@@ -1,104 +1,52 @@
----
-layout: default
----
-
 # OIDC Authentication
-Modern, Secure Authentication
-
----
-layout: two-cols
----
-
-# What is OIDC?
-
-## OpenID Connect
-
-<v-clicks>
-
-- Modern authentication standard
-- Built on OAuth 2.0
-- Industry best practices
-- Enhanced security
-- Single Sign-On (SSO) support
-
-</v-clicks>
-
-::right::
-
-## Benefits for Users
-
-<v-clicks>
-
-- 🔐 **More Secure** - Token-based authentication
-- 🎫 **Single Sign-On** - One login for multiple services
-- 🔄 **Automatic Renewal** - Seamless session management
-- 🌐 **Multiple Providers** - Choose your preferred identity provider
-- 📱 **Modern Standards** - Compatible with 2FA and MFA
-
-</v-clicks>
-
----
-layout: default
----
-
-# Supported Identity Providers
-
-<div class="grid grid-cols-2 gap-8">
-
-<div>
-
-## Currently Supported
-
-<v-clicks>
-
-- **CERN SSO** - Primary provider for CERN users
-- **Indigo IAM** - For distributed computing communities
-- **WLCG IAM** - Worldwide LHC Computing Grid
-- **Custom Providers** - Extensible to other OIDC providers
-
-</v-clicks>
-
-</div>
-
-<div>
-
-## How It Works
-
 <v-clicks>
 
 1. Choose your identity provider
 2. Redirect to provider login
 3. Authenticate with your credentials
 4. Return to Rucio with secure token
-5. Enjoy seamless access
 
 </v-clicks>
 
-</div>
+---
+layout: center
+class: text-center
+---
 
-</div>
+## Step 1: Login Page
+Choose your authentication method
+
+<img src="/login_page.png" class="m-auto rounded shadow-lg" style="max-height: 400px;" />
+
+<arrow v-click x1="400" y1="550" x2="400" y2="580" color="#564" width="3" arrowSize="1" />
+
+---
+layout: center
+class: text-center
+---
+
+## Step 2: Identity Provider Authorization
+Grant access to your identity and profile
+
+<img src="/oidc_login_atlas_iam.png" class="m-auto rounded shadow-lg" style="max-height: 400px;" />
+
+<arrow v-click x1="400" y1="550" x2="400" y2="580" color="#564" width="3" arrowSize="1" />
+
+---
+layout: center
+class: text-center
+---
+
+## Step 3: Welcome to Rucio!
+Successfully authenticated and ready to use
+
+<img src="/webui_dashboard_post_oidc.png" class="m-auto rounded shadow-lg" style="max-height: 400px;" />
 
 ---
 layout: default
 ---
 
-# Enhanced Security Features
+# Pending Configurations
 
-<v-clicks>
-
-## Security Improvements
-
-- **Token-Based Authentication** - No password storage in browser
-- **Short-Lived Tokens** - Reduced risk window
-- **Automatic Refresh** - Seamless re-authentication
-- **Scope-Based Access** - Fine-grained permissions
-- **Audit Trail** - Track authentication events
-
-## User Privacy
-
-- **Minimal Data Collection** - Only essential information
-- **Provider Choice** - Select your trusted identity provider
-- **Transparent Permissions** - Clear about what access is requested
-- **Secure Transmission** - All data encrypted in transit
-
-</v-clicks>
+- OIDC Identities from Atlas IAM need to be syned in Rucio database.
+- Some improvements to token validation workflows are foreseen in the Rucio Server.

@@ -3,7 +3,7 @@ layout: default
 ---
 
 # Bookmarks Feature
-Quick Access with HotBar
+Save and Share WebUI Views
 
 ---
 layout: two-cols
@@ -11,17 +11,17 @@ layout: two-cols
 
 # What are Bookmarks?
 
-## HotBar Quick Access
+## URL-Based Quick Access
 
 <v-clicks>
 
-Your personalized shortcuts to frequently accessed resources
+Save any view in the WebUI as a bookmark
 
-- **Datasets** you work with regularly
-- **Storage Elements** you monitor
-- **Subscriptions** you manage
-- **Accounts** you need to check
-- **Any resource** you access frequently
+- **Copy any URL** from the WebUI
+- **Create bookmarks** for specific views
+- **Share views** with colleagues
+- **Quick access** to saved states
+- **Personal shortcuts** to your workflows
 
 </v-clicks>
 
@@ -31,56 +31,79 @@ Your personalized shortcuts to frequently accessed resources
 
 <v-clicks>
 
-- ⚡ **Save Time** - One click to your resources
-- 🎯 **Stay Focused** - Quick access to what matters
-- 📌 **Pin Important Items** - Never lose track
-- 🔄 **Reduce Navigation** - Skip repetitive browsing
-- 💼 **Personal Workspace** - Customize your experience
+- ⚡ **Save Time** - One click to your saved views
+- 🔗 **Share Context** - Send URLs to collaborate
+- 📌 **Pin Important Views** - Never lose track
+- 🎯 **Quick Navigation** - Access saved states instantly
+- 💼 **Shareable Workspace** - Communicate views easily
 
 </v-clicks>
 
 ---
-layout: default
+layout: image-right
+image: /bookmarks-create.png
+backgroundSize: contain
 ---
 
-# Using the HotBar
-
-<div class="grid grid-cols-2 gap-8">
-
-<div>
-
-## Adding Bookmarks
+# Creating a Bookmark
 
 <v-clicks>
 
-1. Navigate to any resource
-2. Click the bookmark icon ⭐
-3. Resource appears in your HotBar
-4. Access it anytime with one click
+## Simple 3-Step Process
 
-**Pro Tip:** Bookmark your most-used items first!
+1. **Navigate** to any view in the WebUI
+2. **Open** the bookmarks panel
+3. **Add** bookmark with a meaningful name
+
+The bookmark captures the current URL and state of your view.
+
+**Storage Limit:** Up to **9 bookmarks** supported
 
 </v-clicks>
 
-</div>
+---
+layout: image-right
+image: /bookmark-created.png
+backgroundSize: contain
+---
 
-<div>
-
-## Managing Bookmarks
+# Managing Your Bookmarks
 
 <v-clicks>
 
-- **Organize** - Drag and reorder bookmarks
-- **Remove** - Click to unbookmark
-- **Rename** - Give meaningful names
-- **Sync** - Available across sessions
-- **Limit** - Keep your HotBar focused
+## Available Operations
+
+- ⚡ **Quick Access** - Click to navigate to saved view
+- ✏️ **Edit** - Update bookmark name
+- 🗑️ **Delete** - Remove unwanted bookmarks
+- 🔗 **Copy Link** - Share the URL
+
+Keep your bookmarks organized and up-to-date for maximum productivity!
 
 </v-clicks>
 
-</div>
+---
+layout: image-right
+image: /bookmark-link-copied.png
+backgroundSize: contain
+---
 
-</div>
+# Sharing Bookmarks
+
+<v-clicks>
+
+## Copy & Share URLs
+
+Click the **copy link** button to:
+
+- 📤 Share specific views with teammates
+- 💬 Post in Slack, Teams, or email
+- 📝 Reference in documentation
+- 🎯 Link in issue trackers
+
+**Anyone with the link** can access the same view you bookmarked!
+
+</v-clicks>
 
 ---
 layout: default
@@ -90,26 +113,28 @@ layout: default
 
 <v-clicks>
 
-## Maximize Your Productivity
+## Maximize Your Productivity & Collaboration
 
 ### What to Bookmark
 
-- **Daily Tasks** - Datasets you check every day
-- **Active Projects** - Resources for current work
-- **Monitoring** - Storage elements or subscriptions you track
-- **Collaboration** - Shared resources with your team
+- **Complex Views** - Multi-filter queries you use frequently
+- **Dashboard States** - Specific monitoring configurations
+- **Report Views** - Regular analysis pages
+- **Collaboration States** - Views to share with team members
+- **Debug Views** - Specific states for troubleshooting
 
-### What Not to Bookmark
+### Sharing Bookmarks
 
-- One-time queries or temporary searches
-- Resources you rarely access
-- Items easily found through search
+- 📧 **Email** - Send bookmark URL to colleagues
+- 💬 **Slack/Teams** - Share in team channels
+- 📝 **Documentation** - Include in runbooks
+- 🎯 **Issue Tracking** - Reference specific views in tickets
 
 ### Keep It Organized
 
-- Regular cleanup of outdated bookmarks
-- Use consistent naming conventions
-- Group related resources mentally
-- Limit to 10-15 most important items
+- Regular cleanup of outdated bookmarks (9 bookmark limit!)
+- Use clear, descriptive names
+- Remove bookmarks for completed tasks
+- Prioritize your most-accessed views
 
 </v-clicks>

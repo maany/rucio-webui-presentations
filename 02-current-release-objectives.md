@@ -23,68 +23,68 @@ class: text-center
 layout: default
 ---
 
-# User Experience Focus
+# User Types
 
 <div class="grid grid-cols-3 gap-4 mt-4">
 
-<div v-click class="border-2 border-green-500 rounded-lg p-4 bg-green-50 dark:bg-green-900/20">
+<div class="border-2 border-green-500 rounded-lg p-4 bg-green-50 dark:bg-green-900/20">
 
-### 👩‍🔬 Physics Users
+### <span class="i-heroicons-outline-beaker w-6 h-6"/> Physics Users
 
-<div class="text-3xl my-2">✅</div>
+<div class="text-3xl my-2"><span class="i-heroicons-solid-check-circle w-6 h-6 text-success-600"/></div>
 
 **Status: Complete**
 
 <div class="text-sm mt-2">
 
-- Dataset discovery
-- DID navigation
-- Rule management
-- Subscriptions
+- Explore
+  - Rules
+  - Subscriptions
+  - DIDs
+  - RSEs
+- Create Rules
 
 </div>
 
 </div>
 
-<div v-click class="border-2 border-yellow-500 rounded-lg p-4 bg-yellow-50 dark:bg-yellow-900/20">
+<div class="border-2 border-yellow-500 rounded-lg p-4 bg-yellow-50 dark:bg-yellow-900/20">
 
-### 🏢 Site Admins
+### <span class="i-heroicons-outline-building-office w-6 h-6"/> Site Admins
 
-<div class="text-3xl my-2">🔄</div>
+<div class="text-3xl my-2"><span class="i-heroicons-outline-arrow-path w-6 h-6 text-warning-600"/></div>
 
 **Status: In Progress**
 
 <div class="text-sm mt-2">
 
-- RSE management
-- Storage monitoring
+- Rule Approval
 - Quota administration
-- Site configuration
 
 </div>
 
-<div class="mt-2 text-xs font-bold text-yellow-700 dark:text-yellow-300">📍 Focus Area</div>
+<div class="mt-2 text-xs font-bold text-yellow-700 dark:text-yellow-300"><span class="i-heroicons-solid-map-pin w-3 h-3"/> Focus Area</div>
 
 </div>
 
-<div v-click class="border-2 border-yellow-500 rounded-lg p-4 bg-yellow-50 dark:bg-yellow-900/20">
+<div class="border-2 border-yellow-500 rounded-lg p-4 bg-yellow-50 dark:bg-yellow-900/20">
 
-### ⚙️ Operators
+### <span class="i-heroicons-outline-cog-6-tooth w-6 h-6"/> Operators
 
-<div class="text-3xl my-2">🔄</div>
+<div class="text-3xl my-2"><span class="i-heroicons-outline-arrow-path w-6 h-6 text-warning-600"/></div>
 
 **Status: In Progress**
 
 <div class="text-sm mt-2">
 
-- System monitoring
-- Lock management
-- Replica operations
-- Troubleshooting tools
+- Update, Delete, Boost Rules
+- Edit Subscriptions
+- Account Management
+- RSE Management
 
 </div>
 
-<div class="mt-2 text-xs font-bold text-yellow-700 dark:text-yellow-300">📍 Focus Area</div>
+<div class="mt-2 text-xs font-bold text-yellow-700 dark:text-yellow-300"><span class="i-heroicons-solid-map-pin w-3 h-3"/> Focus Area</div>
 
 </div>
 
@@ -94,28 +94,4 @@ layout: default
 layout: default
 ---
 
-# Going Forward
 
-<v-clicks>
-
-## Priority: Site Admins & Operators
-
-The next releases will focus on completing the experience for:
-
-### 🏢 Site Administrators
-- Advanced RSE configuration and management
-- Comprehensive storage monitoring and analytics
-- Quota management and enforcement tools
-- Site performance optimization features
-
-### ⚙️ Operations Teams
-- Enhanced monitoring and alerting capabilities
-- Advanced troubleshooting and diagnostic tools
-- Bulk operational workflows
-- System health dashboards
-
-## Timeline
-
-**Q2-Q3 2026** - Feature parity for administrative and operational use cases
-
-</v-clicks>

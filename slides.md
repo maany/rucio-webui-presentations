@@ -12,6 +12,10 @@ drawings:
 transition: slide-left
 mdc: true
 duration: 35min
+fonts:
+  sans: 'Inter'
+  mono: 'JetBrains Mono'
+  provider: 'google'
 ---
 
 ---
@@ -22,12 +26,16 @@ src: ./01-introduction.md
 src: ./02-current-release-objectives.md
 ---
 
----
-src: ./03-feature-overview.md
----
+<!-- --- -->
+<!-- src: ./03-feature-overview.md -->
+<!-- --- -->
 
 ---
 src: ./04-oidc-authentication.md
+---
+
+---
+src: ./04b-dashboard-view.md
 ---
 
 ---
@@ -44,6 +52,10 @@ src: ./07-tips.md
 
 ---
 src: ./08-design-system.md
+---
+
+---
+src: ./08b-design-system-colors.md
 ---
 
 ---

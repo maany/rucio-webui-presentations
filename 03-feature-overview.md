@@ -55,7 +55,7 @@ layout: default
 - **Recent Items** - Quick access to recently viewed resources
 - **Smart Search** - Find what you need instantly
 
-</div>
+</span>
 
 <div>
 
@@ -66,9 +66,9 @@ layout: default
 - **Contextual Actions** - Right actions at the right time
 - **Bulk Operations** - Perform actions on multiple items
 
-</div>
+</span>
 
-</div>
+</span>
 
 ---
 layout: default

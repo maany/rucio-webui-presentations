@@ -17,7 +17,7 @@ layout: default
 
 The new WebUI has achieved **core functionality parity** with most essential features:
 
-✅ **Implemented**
+<span class="i-heroicons-solid-check-circle w-6 h-6 text-success-600"/> **Implemented**
 - Dataset and DID browsing
 - Rule management (view, create)
 - Subscription monitoring
@@ -25,7 +25,7 @@ The new WebUI has achieved **core functionality parity** with most essential fea
 - RSE exploration
 - Basic search and filtering
 
-⏳ **In Progress**
+<span class="i-heroicons-outline-clock w-6 h-6 text-warning-600"/> **In Progress**
 - Advanced rule editing
 - Complex filtering options
 - Administrative functions
@@ -119,25 +119,25 @@ layout: default
 
 ## Phased Approach
 
-### Phase 1: Core Features ✅ **(Complete)**
+### Phase 1: Core Features <span class="i-heroicons-solid-check-circle w-6 h-6 text-success-600"/> **(Complete)**
 - Basic data management
 - Essential navigation
 - User authentication
 - Critical workflows
 
-### Phase 2: Enhanced Features 🔄 **(Current)**
+### Phase 2: Enhanced Features <span class="i-heroicons-outline-arrow-path w-5 h-5 text-warning-600"/> **(Current)**
 - Advanced filtering and search
 - Improved rule management
 - Enhanced monitoring
 - Better bulk operations
 
-### Phase 3: Administrative Tools 📅 **(Planned)**
+### Phase 3: Administrative Tools <span class="i-heroicons-outline-calendar w-5 h-5 text-info-600"/> **(Planned)**
 - Full administrative capabilities
 - Advanced configuration
 - System management
 - Power user features
 
-### Phase 4: Feature Parity+ 🎯 **(Future)**
+### Phase 4: Feature Parity+ <span class="i-heroicons-outline-adjustments-horizontal w-5 h-5 text-brand-600"/> **(Future)**
 - All old UI features migrated
 - New capabilities beyond old UI
 - Community-requested enhancements

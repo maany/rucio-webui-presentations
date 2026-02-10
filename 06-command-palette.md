@@ -17,10 +17,10 @@ layout: two-cols
 
 A powerful search interface that lets you:
 
-- 🔍 **Search** - Find any resource instantly
-- 🚀 **Navigate** - Jump to any page or feature
-- ⚡ **Execute** - Run actions without clicking
-- 📝 **Discover** - Explore available commands
+- <span class="i-heroicons-outline-magnifying-glass w-5 h-5"/> **Search** - Find any resource instantly
+- <span class="i-heroicons-outline-rocket-launch w-5 h-5"/> **Navigate** - Jump to any page or feature
+- <span class="i-heroicons-outline-bolt w-5 h-5"/> **Execute** - Run actions without clicking
+- <span class="i-heroicons-outline-pencil-square w-5 h-5"/> **Discover** - Explore available commands
 
 **Access:** Press `Cmd+K` (Mac) or `Ctrl+K` (Windows/Linux)
 

@@ -30,11 +30,11 @@ A collection of reusable components and guidelines that ensure:
 
 <v-clicks>
 
-- 🎨 **Visual Consistency** - Same look and feel everywhere
-- ♿ **Accessibility First** - WCAG AAA compliance
-- 📱 **Responsive Design** - Works on all screen sizes
-- ⚡ **Performance** - Fast and lightweight
-- 🔧 **Maintainability** - Easy to update and extend
+- <span class="i-heroicons-outline-swatch w-5 h-5"/> **Visual Consistency** - Same look and feel everywhere
+- <span class="i-heroicons-outline-user-group w-5 h-5"/> **Accessibility First** - WCAG AAA compliance
+- <span class="i-heroicons-outline-device-phone-mobile w-5 h-5"/> **Responsive Design** - Works on all screen sizes
+- <span class="i-heroicons-outline-bolt w-5 h-5"/> **Performance** - Fast and lightweight
+- <span class="i-heroicons-outline-wrench-screwdriver w-5 h-5"/> **Maintainability** - Easy to update and extend
 
 </v-clicks>
 
