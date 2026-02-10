@@ -59,10 +59,6 @@ src: ./08-design-system.md
 ---
 
 ---
-src: ./08b-design-system-colors.md
----
-
----
 src: ./09-upcoming-functionality.md
 ---
 
