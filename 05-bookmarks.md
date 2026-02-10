@@ -1,19 +1,7 @@
----
-layout: default
----
-
-# Bookmarks Feature
-Save and Share WebUI Views
-
----
-layout: two-cols
----
-
 # What are Bookmarks?
 
 ## URL-Based Quick Access
 
-<v-clicks>
 
 Save any view in the WebUI as a bookmark
 
@@ -23,21 +11,6 @@ Save any view in the WebUI as a bookmark
 - **Quick access** to saved states
 - **Personal shortcuts** to your workflows
 
-</v-clicks>
-
-::right::
-
-## Why Use Bookmarks?
-
-<v-clicks>
-
-- ⚡ **Save Time** - One click to your saved views
-- 🔗 **Share Context** - Send URLs to collaborate
-- 📌 **Pin Important Views** - Never lose track
-- 🎯 **Quick Navigation** - Access saved states instantly
-- 💼 **Shareable Workspace** - Communicate views easily
-
-</v-clicks>
 
 ---
 layout: image-right
@@ -47,7 +20,6 @@ backgroundSize: contain
 
 # Creating a Bookmark
 
-<v-clicks>
 
 ## Simple 3-Step Process
 
@@ -59,7 +31,6 @@ The bookmark captures the current URL and state of your view.
 
 **Storage Limit:** Up to **9 bookmarks** supported
 
-</v-clicks>
 
 ---
 layout: image-right
@@ -69,7 +40,6 @@ backgroundSize: contain
 
 # Managing Your Bookmarks
 
-<v-clicks>
 
 ## Available Operations
 
@@ -80,7 +50,6 @@ backgroundSize: contain
 
 Keep your bookmarks organized and up-to-date for maximum productivity!
 
-</v-clicks>
 
 ---
 layout: image-right
@@ -90,7 +59,6 @@ backgroundSize: contain
 
 # Sharing Bookmarks
 
-<v-clicks>
 
 ## Copy & Share URLs
 
@@ -103,38 +71,4 @@ Click the **copy link** button to:
 
 **Anyone with the link** can access the same view you bookmarked!
 
-</v-clicks>
 
----
-layout: default
----
-
-# Bookmark Best Practices
-
-<v-clicks>
-
-## Maximize Your Productivity & Collaboration
-
-### What to Bookmark
-
-- **Complex Views** - Multi-filter queries you use frequently
-- **Dashboard States** - Specific monitoring configurations
-- **Report Views** - Regular analysis pages
-- **Collaboration States** - Views to share with team members
-- **Debug Views** - Specific states for troubleshooting
-
-### Sharing Bookmarks
-
-- 📧 **Email** - Send bookmark URL to colleagues
-- 💬 **Slack/Teams** - Share in team channels
-- 📝 **Documentation** - Include in runbooks
-- 🎯 **Issue Tracking** - Reference specific views in tickets
-
-### Keep It Organized
-
-- Regular cleanup of outdated bookmarks (9 bookmark limit!)
-- Use clear, descriptive names
-- Remove bookmarks for completed tasks
-- Prioritize your most-accessed views
-
-</v-clicks>
