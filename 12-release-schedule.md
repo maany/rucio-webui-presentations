@@ -9,48 +9,42 @@ layout: default
 <div class="grid grid-cols-3 gap-6 mt-4">
 
 <div class="border-2 border-info-500 bg-info-100 dark:bg-info-900/20 rounded-xl p-6">
-  <div class="flex items-center gap-2 mb-3">
+  <div class="flex items-center gap-2 mb-4">
     <span class="i-heroicons-outline-play w-6 h-6 text-info-600"/>
-    <h3 class="font-semibold text-neutral-900 dark:text-neutral-100 !mt-0">2026 H1: Parallel Operation</h3>
+    <span class="font-semibold text-neutral-900 dark:text-neutral-100">2026 H1: Parallel Operation</span>
   </div>
-  <div class="text-sm text-neutral-700 dark:text-neutral-300 space-y-1">
-
-- Both UIs available
-- New UI as recommended option
-- Feature gap closure continues
-- User training and documentation
-
-  </div>
+  <ul class="text-sm text-neutral-700 dark:text-neutral-300 space-y-2 list-none !pl-0">
+    <li class="flex items-start gap-2"><span class="i-heroicons-solid-chevron-right w-4 h-4 text-info-500 mt-0.5 shrink-0"/><span>Both UIs available</span></li>
+    <li class="flex items-start gap-2"><span class="i-heroicons-solid-chevron-right w-4 h-4 text-info-500 mt-0.5 shrink-0"/><span>New UI as recommended option</span></li>
+    <li class="flex items-start gap-2"><span class="i-heroicons-solid-chevron-right w-4 h-4 text-info-500 mt-0.5 shrink-0"/><span>Feature gap closure continues</span></li>
+    <li class="flex items-start gap-2"><span class="i-heroicons-solid-chevron-right w-4 h-4 text-info-500 mt-0.5 shrink-0"/><span>User training and documentation</span></li>
+  </ul>
 </div>
 
 <div class="border-2 border-warning-500 bg-warning-100 dark:bg-warning-900/20 rounded-xl p-6">
-  <div class="flex items-center gap-2 mb-3">
+  <div class="flex items-center gap-2 mb-4">
     <span class="i-heroicons-outline-arrow-path w-6 h-6 text-warning-600"/>
-    <h3 class="font-semibold text-neutral-900 dark:text-neutral-100 !mt-0">2026 H2: Transition</h3>
+    <span class="font-semibold text-neutral-900 dark:text-neutral-100">2026 H2: Transition</span>
   </div>
-  <div class="text-sm text-neutral-700 dark:text-neutral-300 space-y-1">
-
-- New UI becomes default
-- Old UI available but deprecated
-- Migration assistance for users
-- Final feature implementation
-
-  </div>
+  <ul class="text-sm text-neutral-700 dark:text-neutral-300 space-y-2 list-none !pl-0">
+    <li class="flex items-start gap-2"><span class="i-heroicons-solid-chevron-right w-4 h-4 text-warning-500 mt-0.5 shrink-0"/><span>New UI becomes default</span></li>
+    <li class="flex items-start gap-2"><span class="i-heroicons-solid-chevron-right w-4 h-4 text-warning-500 mt-0.5 shrink-0"/><span>Old UI available but deprecated</span></li>
+    <li class="flex items-start gap-2"><span class="i-heroicons-solid-chevron-right w-4 h-4 text-warning-500 mt-0.5 shrink-0"/><span>Migration assistance for users</span></li>
+    <li class="flex items-start gap-2"><span class="i-heroicons-solid-chevron-right w-4 h-4 text-warning-500 mt-0.5 shrink-0"/><span>Final feature implementation</span></li>
+  </ul>
 </div>
 
 <div class="border-2 border-success-500 bg-success-100 dark:bg-success-900/20 rounded-xl p-6">
-  <div class="flex items-center gap-2 mb-3">
+  <div class="flex items-center gap-2 mb-4">
     <span class="i-heroicons-outline-check-circle w-6 h-6 text-success-600"/>
-    <h3 class="font-semibold text-neutral-900 dark:text-neutral-100 !mt-0">2027: Full Migration</h3>
+    <span class="font-semibold text-neutral-900 dark:text-neutral-100">2027: Full Migration</span>
   </div>
-  <div class="text-sm text-neutral-700 dark:text-neutral-300 space-y-1">
-
-- Old UI retired
-- Full support for new UI only
-- Complete documentation
-- Community fully migrated
-
-  </div>
+  <ul class="text-sm text-neutral-700 dark:text-neutral-300 space-y-2 list-none !pl-0">
+    <li class="flex items-start gap-2"><span class="i-heroicons-solid-chevron-right w-4 h-4 text-success-500 mt-0.5 shrink-0"/><span>Old UI retired</span></li>
+    <li class="flex items-start gap-2"><span class="i-heroicons-solid-chevron-right w-4 h-4 text-success-500 mt-0.5 shrink-0"/><span>Full support for new UI only</span></li>
+    <li class="flex items-start gap-2"><span class="i-heroicons-solid-chevron-right w-4 h-4 text-success-500 mt-0.5 shrink-0"/><span>Complete documentation</span></li>
+    <li class="flex items-start gap-2"><span class="i-heroicons-solid-chevron-right w-4 h-4 text-success-500 mt-0.5 shrink-0"/><span>Community fully migrated</span></li>
+  </ul>
 </div>
 
 </div>
