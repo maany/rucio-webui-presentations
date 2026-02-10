@@ -8,11 +8,39 @@ layout: default
 
 Save any view in the WebUI as a bookmark
 
-- **Copy any URL** from the WebUI
-- **Create bookmarks** for specific views
-- **Share views** with colleagues
-- **Quick access** to saved states
-- **Personal shortcuts** to your workflows
+<div class="grid grid-cols-5 gap-3 mt-6">
+
+<div class="bg-neutral-100 dark:bg-neutral-800 rounded-xl p-4 text-center">
+  <div class="mb-2"><span class="i-heroicons-outline-link w-7 h-7 text-brand-600"/></div>
+  <div class="text-sm font-semibold text-neutral-900 dark:text-neutral-100">Copy URL</div>
+  <p class="text-xs text-neutral-500 mt-1">From the WebUI</p>
+</div>
+
+<div class="bg-neutral-100 dark:bg-neutral-800 rounded-xl p-4 text-center">
+  <div class="mb-2"><span class="i-heroicons-outline-bookmark w-7 h-7 text-brand-600"/></div>
+  <div class="text-sm font-semibold text-neutral-900 dark:text-neutral-100">Create</div>
+  <p class="text-xs text-neutral-500 mt-1">For specific views</p>
+</div>
+
+<div class="bg-neutral-100 dark:bg-neutral-800 rounded-xl p-4 text-center">
+  <div class="mb-2"><span class="i-heroicons-outline-share w-7 h-7 text-brand-600"/></div>
+  <div class="text-sm font-semibold text-neutral-900 dark:text-neutral-100">Share</div>
+  <p class="text-xs text-neutral-500 mt-1">With colleagues</p>
+</div>
+
+<div class="bg-neutral-100 dark:bg-neutral-800 rounded-xl p-4 text-center">
+  <div class="mb-2"><span class="i-heroicons-outline-bolt w-7 h-7 text-brand-600"/></div>
+  <div class="text-sm font-semibold text-neutral-900 dark:text-neutral-100">Quick Access</div>
+  <p class="text-xs text-neutral-500 mt-1">To saved states</p>
+</div>
+
+<div class="bg-neutral-100 dark:bg-neutral-800 rounded-xl p-4 text-center">
+  <div class="mb-2"><span class="i-heroicons-outline-arrows-right-left w-7 h-7 text-brand-600"/></div>
+  <div class="text-sm font-semibold text-neutral-900 dark:text-neutral-100">Shortcuts</div>
+  <p class="text-xs text-neutral-500 mt-1">To your workflows</p>
+</div>
+
+</div>
 
 
 ---
@@ -46,12 +74,29 @@ backgroundSize: contain
 
 ## Available Operations
 
-- **Quick Access** - Click to navigate to saved view
-- **Edit** - Update bookmark name
-- **Delete** - Remove unwanted bookmarks
-- **Copy Link** - Share the URL
+<div class="space-y-3 mt-4">
 
-Keep your bookmarks organized and up-to-date for maximum productivity!
+<div class="flex items-center gap-3 bg-neutral-100 dark:bg-neutral-800 rounded-lg p-3">
+  <span class="i-heroicons-outline-cursor-arrow-rays w-5 h-5 text-brand-600"/>
+  <div><span class="font-semibold text-sm">Quick Access</span> <span class="text-sm text-neutral-500">- Click to navigate to saved view</span></div>
+</div>
+
+<div class="flex items-center gap-3 bg-neutral-100 dark:bg-neutral-800 rounded-lg p-3">
+  <span class="i-heroicons-outline-pencil-square w-5 h-5 text-brand-600"/>
+  <div><span class="font-semibold text-sm">Edit</span> <span class="text-sm text-neutral-500">- Update bookmark name</span></div>
+</div>
+
+<div class="flex items-center gap-3 bg-neutral-100 dark:bg-neutral-800 rounded-lg p-3">
+  <span class="i-heroicons-outline-trash w-5 h-5 text-brand-600"/>
+  <div><span class="font-semibold text-sm">Delete</span> <span class="text-sm text-neutral-500">- Remove unwanted bookmarks</span></div>
+</div>
+
+<div class="flex items-center gap-3 bg-neutral-100 dark:bg-neutral-800 rounded-lg p-3">
+  <span class="i-heroicons-outline-link w-5 h-5 text-brand-600"/>
+  <div><span class="font-semibold text-sm">Copy Link</span> <span class="text-sm text-neutral-500">- Share the URL</span></div>
+</div>
+
+</div>
 
 
 ---
@@ -67,10 +112,9 @@ backgroundSize: contain
 
 Click the **copy link** button to:
 
-- Share specific views with teammates
-- Post in Slack, Teams, or email
+- Share specific views with colleagues
+- Post in Mattermost or email
 - Reference in documentation
 - Link in issue trackers
 
 **Anyone with the link** can access the same view you bookmarked!
-

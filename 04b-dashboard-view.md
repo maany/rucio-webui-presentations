@@ -4,80 +4,110 @@ layout: default
 
 ## Dashboard Components
 
+<div class="grid grid-cols-4 gap-4 mt-4">
 
-1. **Welcome Section** - Account info and role badge
-2. **Rule Locks Chart** - Monitor replication status
-3. **Storage Usage** - Track quota across RSEs
-4. **Quick Bookmarks** - Save frequently accessed pages
+<div class="bg-neutral-100 dark:bg-neutral-800 rounded-xl p-5">
+  <div class="mb-3"><span class="i-heroicons-outline-user-circle w-8 h-8 text-brand-600"/></div>
+  <div class="font-semibold text-neutral-900 dark:text-neutral-100">Welcome Section</div>
+  <p class="text-sm text-neutral-600 dark:text-neutral-400 mt-1">Account info and role badge</p>
+</div>
+
+<div class="bg-neutral-100 dark:bg-neutral-800 rounded-xl p-5">
+  <div class="mb-3"><span class="i-heroicons-outline-chart-bar w-8 h-8 text-brand-600"/></div>
+  <div class="font-semibold text-neutral-900 dark:text-neutral-100">Rule Locks Chart</div>
+  <p class="text-sm text-neutral-600 dark:text-neutral-400 mt-1">Monitor replication status</p>
+</div>
+
+<div class="bg-neutral-100 dark:bg-neutral-800 rounded-xl p-5">
+  <div class="mb-3"><span class="i-heroicons-outline-circle-stack w-8 h-8 text-brand-600"/></div>
+  <div class="font-semibold text-neutral-900 dark:text-neutral-100">Storage Usage</div>
+  <p class="text-sm text-neutral-600 dark:text-neutral-400 mt-1">Track quota across RSEs</p>
+</div>
+
+<div class="bg-neutral-100 dark:bg-neutral-800 rounded-xl p-5">
+  <div class="mb-3"><span class="i-heroicons-outline-bookmark w-8 h-8 text-brand-600"/></div>
+  <div class="font-semibold text-neutral-900 dark:text-neutral-100">Quick Bookmarks</div>
+  <p class="text-sm text-neutral-600 dark:text-neutral-400 mt-1">Save frequently accessed pages</p>
+</div>
+
+</div>
 
 
 ---
-layout: two-cols
+layout: default
 ---
 
 # Top Rules Widget
 Monitor your replication rules
 
-## Features
+<div class="grid grid-cols-2 gap-6 mt-4">
 
+<div>
+
+<img src="/latest-rules-widget.png" class="rounded-lg shadow-lg" />
+
+</div>
+
+<div>
+
+## Features
 
 - **Latest 10 Rules** - From the last 15 days
 - **Stacked Bar Charts** - Visual lock state breakdown
 - **Error Prioritization** - Issues shown first
 - **Interactive** - Click to open rule details
 
-::right::
-
 ## Lock States
 
-
-<div class="space-y-4">
-
+<div class="space-y-3 mt-3">
 <div class="flex items-center gap-3">
   <div class="w-4 h-4 rounded-full bg-green-500"></div>
   <span><strong>OK</strong> - Locks in good state</span>
 </div>
-
 <div class="flex items-center gap-3">
   <div class="w-4 h-4 rounded-full bg-yellow-500"></div>
   <span><strong>Replicating</strong> - Active transfers</span>
 </div>
-
 <div class="flex items-center gap-3">
   <div class="w-4 h-4 rounded-full bg-red-500"></div>
   <span><strong>Error/Stuck</strong> - Needs attention</span>
 </div>
+</div>
 
 </div>
 
+</div>
 
 ---
-layout: two-cols
+layout: default
 ---
 
 # Storage Usage Widget
 Visualize your RSE quotas
 
-## What It Shows
+<div class="grid grid-cols-2 gap-6 mt-4">
 
+<div>
+
+<img src="/storage_usage-widget.png" class="rounded-lg shadow-lg" />
+
+</div>
+
+<div class="text-sm">
+
+## What It Shows
 
 - **Pie Charts** - Used vs. remaining quota
 - **Top 10 RSEs** - Most active storage elements
-- **Unlimited Quotas** - Special handling for infinite limits
--  **Available RSEs** - Unused storage elements
-
-::right::
-
-## Interactive Features
-
-
+- **Unlimited Quotas** - Handling for infinite limits
+- **Available RSEs** - Unused storage elements
 - **Click RSE names** to view details
-- **Hover charts** for exact numbers
 - **Color-coded** for quick scanning
-  - 🟠 Orange = Used space
-  - 🟢 Green = Remaining space
 - **Default sorting** by usage percentage
-- **Responsive grid** layout (1-3 columns)
+
+</div>
+
+</div>
 
 
 ---
