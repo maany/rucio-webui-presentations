@@ -1,7 +1,10 @@
+---
+layout: default
+---
+
 # What are Bookmarks?
 
 ## URL-Based Quick Access
-
 
 Save any view in the WebUI as a bookmark
 
@@ -43,10 +46,10 @@ backgroundSize: contain
 
 ## Available Operations
 
-- ⚡ **Quick Access** - Click to navigate to saved view
-- ✏️ **Edit** - Update bookmark name
-- 🗑️ **Delete** - Remove unwanted bookmarks
-- 🔗 **Copy Link** - Share the URL
+- **Quick Access** - Click to navigate to saved view
+- **Edit** - Update bookmark name
+- **Delete** - Remove unwanted bookmarks
+- **Copy Link** - Share the URL
 
 Keep your bookmarks organized and up-to-date for maximum productivity!
 
@@ -64,11 +67,10 @@ backgroundSize: contain
 
 Click the **copy link** button to:
 
-- 📤 Share specific views with teammates
-- 💬 Post in Slack, Teams, or email
-- 📝 Reference in documentation
-- 🎯 Link in issue trackers
+- Share specific views with teammates
+- Post in Slack, Teams, or email
+- Reference in documentation
+- Link in issue trackers
 
 **Anyone with the link** can access the same view you bookmarked!
-
 

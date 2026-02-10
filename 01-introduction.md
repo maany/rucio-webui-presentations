@@ -13,8 +13,8 @@ Modern Data Management Interface for ATLAS
 </div>
 
 <div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    Atlas Software and Computing Week #83 <carbon:arrow-right class="inline"/>
+  <span class="px-2 py-1 rounded opacity-75">
+    Atlas Software and Computing Week #83
   </span>
 </div>
 

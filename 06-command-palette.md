@@ -45,21 +45,21 @@ layout: default
 
 ## What You Can Do
 
-<v-clicks>
-
 - Search for datasets by name
 - Navigate to specific pages
 - Jump to storage elements
-
-</v-clicks>
 
 </div>
 
 <div>
 
+## Supported Search Types
 
+- **DIDs** - Search by dataset name or pattern
+- **RSEs** - Find storage elements
+- **Rules** - Look up replication rules
+- **Pages** - Navigate to any section
 
 </div>
 
 </div>
-

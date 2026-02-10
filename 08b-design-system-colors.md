@@ -140,21 +140,15 @@ layout: two-cols
 
 ## Font Families
 
-<v-clicks>
-
 **Sans-Serif: Inter**
 <div class="font-sans text-2xl mt-2">The quick brown fox jumps</div>
 
 **Monospace: JetBrains Mono**
 <div class="font-mono text-lg mt-2">const rucio = 'webui';</div>
 
-</v-clicks>
-
 ::right::
 
 ## Size Scale
-
-<v-clicks>
 
 <div class="space-y-3">
   <div class="text-xs">Extra Small (12px) - text-xs</div>
@@ -165,8 +159,6 @@ layout: two-cols
   <div class="text-2xl">2XL (24px) - text-2xl</div>
   <div class="text-3xl">3XL (30px) - text-3xl</div>
 </div>
-
-</v-clicks>
 
 ---
 layout: default
@@ -220,8 +212,6 @@ layout: default
 
 # Design System Benefits
 
-<v-clicks>
-
 ## Why a Design System?
 
 <div class="grid grid-cols-3 gap-6 mt-6">
@@ -263,5 +253,3 @@ layout: default
 </div>
 
 </div>
-
-</v-clicks>

@@ -90,9 +90,3 @@ Questions?
 
 </div>
 
-<style>
-.timeline-grid {
-  display: grid;
-  gap: 2rem;
-}
-</style>

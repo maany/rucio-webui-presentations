@@ -90,8 +90,3 @@ layout: default
 
 </div>
 
----
-layout: default
----
-
-

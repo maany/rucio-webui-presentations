@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # OIDC Authentication
 
 1. Choose your identity provider
@@ -16,8 +20,6 @@ Choose your authentication method
 
 <img src="/login_page.png" class="m-auto rounded shadow-lg" style="max-height: 400px;" />
 
-<arrow v-click x1="400" y1="550" x2="400" y2="580" color="#564" width="3" arrowSize="1" />
-
 ---
 layout: center
 class: text-center
@@ -27,8 +29,6 @@ class: text-center
 Grant access to your identity and profile
 
 <img src="/oidc_login_atlas_iam.png" class="m-auto rounded shadow-lg" style="max-height: 400px;" />
-
-<arrow v-click x1="400" y1="550" x2="400" y2="580" color="#564" width="3" arrowSize="1" />
 
 ---
 layout: center

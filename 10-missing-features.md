@@ -34,15 +34,11 @@ layout: default
 
 ## Administrative Features
 
-<v-clicks>
-
 - **Advanced RSE Management** - Full RSE configuration
 - **Quota Administration** - Complex quota operations
 - **Distance Matrix** - RSE distance configuration
 - **Replica Management** - Advanced replica operations
 - **Account Administration** - User/account management
-
-</v-clicks>
 
 </div>
 
@@ -50,15 +46,11 @@ layout: default
 
 ## Advanced Operations
 
-<v-clicks>
-
 - **Complex Rule Editing** - Full rule modification
 - **Bulk Operations** - Large-scale operations
 - **Custom Queries** - Advanced SQL-like queries
 - **Detailed Logs** - Comprehensive operation logs
 - **Export Functions** - Bulk data export
-
-</v-clicks>
 
 </div>
 
@@ -69,8 +61,6 @@ layout: default
 ---
 
 # Why the Gap?
-
-<v-clicks>
 
 ## Deliberate Approach
 
@@ -96,15 +86,11 @@ We're taking a **quality-first approach** to feature migration:
 - Avoiding shortcuts
 - Planning for maintainability
 
-</v-clicks>
-
 ---
 layout: default
 ---
 
 # Migration Timeline
-
-<v-clicks>
 
 ## Phased Approach
 
@@ -130,5 +116,3 @@ layout: default
 - All old UI features migrated
 - New capabilities beyond old UI
 - Community-requested enhancements
-
-</v-clicks>

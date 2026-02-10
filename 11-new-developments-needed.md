@@ -11,8 +11,6 @@ layout: default
 
 # Feature Toggles
 
-<v-clicks>
-
 ## Why Feature Toggles?
 
 Enable controlled rollout and experimentation
@@ -33,15 +31,11 @@ Enable controlled rollout and experimentation
 - Beta program management
 - Emergency rollback capability
 
-</v-clicks>
-
 ---
 layout: default
 ---
 
 # Permissions & Authorization
-
-<v-clicks>
 
 ## Fine-Grained Access Control
 
@@ -61,8 +55,6 @@ layout: default
 - Delegation workflows
 - Administrative controls
 
-</v-clicks>
-
 ---
 layout: default
 ---
@@ -75,15 +67,11 @@ layout: default
 
 ## External Systems
 
-<v-clicks>
-
 - **CRIC Integration** - Compute Resource Information Catalog
 - **MonIT** - Monitoring infrastructure
 - **GFAL Integration** - Grid file access library
 - **Rucio Messaging** - Event streaming
 - **Dashboard Links** - Cross-system navigation
-
-</v-clicks>
 
 </div>
 
@@ -91,15 +79,11 @@ layout: default
 
 ## Data Sources
 
-<v-clicks>
-
 - **Real-time Metrics** - Live system status
 - **Historical Data** - Trend analysis
 - **External Metadata** - Enriched dataset info
 - **Topology Data** - Network and storage maps
 - **Configuration Data** - Dynamic settings
-
-</v-clicks>
 
 </div>
 
@@ -110,8 +94,6 @@ layout: default
 ---
 
 # Advanced Features
-
-<v-clicks>
 
 ## Intelligent Capabilities
 
@@ -133,15 +115,11 @@ layout: default
 - **Capacity Planning** - Predict storage needs
 - **Cost Attribution** - Track resource usage
 
-</v-clicks>
-
 ---
 layout: default
 ---
 
 # Development Infrastructure
-
-<v-clicks>
 
 ## Technical Requirements
 
@@ -164,5 +142,3 @@ layout: default
 - **Dependency Management** - Security patches
 - **Migration Tools** - Smooth upgrades
 - **Backup & Recovery** - Data protection
-
-</v-clicks>
