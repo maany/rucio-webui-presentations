@@ -51,6 +51,10 @@ src: ./07-tips.md
 ---
 
 ---
+src: ./07b-streamed-tables.md
+---
+
+---
 src: ./08-design-system.md
 ---
 
