@@ -1,24 +1,4 @@
 ---
-theme: seriph
-title: Rucio WebUI - Atlas Software and Computing Week 2026
-info: |
-  ## Rucio WebUI Presentation
-  Modern Data Management Interface for ATLAS
-
-  Atlas Software and Computing Week 2026
-class: text-center
-drawings:
-  persist: false
-transition: slide-left
-mdc: true
-duration: 35min
-fonts:
-  sans: 'Inter'
-  mono: 'JetBrains Mono'
-  provider: 'google'
----
-
----
 src: ./01-introduction.md
 ---
 
@@ -62,14 +42,7 @@ src: ./08-design-system.md
 src: ./09-upcoming-functionality.md
 ---
 
----
-src: ./10-missing-features.md
----
-
----
-src: ./11-new-developments-needed.md
----
 
 ---
 src: ./12-release-schedule.md
----
+--- 

@@ -5,14 +5,6 @@ layout: default
 # Missing Features
 Old UI vs New UI Comparison
 
----
-layout: default
----
-
-# Feature Parity Status
-
-<v-clicks>
-
 ## Current State
 
 The new WebUI has achieved **core functionality parity** with most essential features:
@@ -27,11 +19,8 @@ The new WebUI has achieved **core functionality parity** with most essential fea
 
 <span class="i-heroicons-outline-clock w-6 h-6 text-warning-600"/> **In Progress**
 - Advanced rule editing
-- Complex filtering options
 - Administrative functions
 - Some specialized views
-
-</v-clicks>
 
 ---
 layout: default
