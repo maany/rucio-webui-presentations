@@ -89,6 +89,6 @@ Questions?
 
 **Rucio WebUI Team**
 
-rucio-dev@cern.ch | rucio.cern.ch | github.com/rucio/webui
+rucio.cern.ch | github.com/rucio/webui
 
 </div>
