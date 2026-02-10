@@ -1,12 +1,10 @@
 # OIDC Authentication
-<v-clicks>
 
 1. Choose your identity provider
 2. Redirect to provider login
 3. Authenticate with your credentials
 4. Return to Rucio with secure token
 
-</v-clicks>
 
 ---
 layout: center
