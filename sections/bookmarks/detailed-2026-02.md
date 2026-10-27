@@ -45,7 +45,7 @@ Save any view in the WebUI as a bookmark
 
 ---
 layout: image-right
-image: /bookmarks-create.png
+image: /bookmarks/2026-02/bookmarks-create.png
 backgroundSize: contain
 ---
 
@@ -65,7 +65,7 @@ The bookmark captures the current URL and state of your view.
 
 ---
 layout: image-right
-image: /bookmark-created.png
+image: /bookmarks/2026-02/bookmark-created.png
 backgroundSize: contain
 ---
 
@@ -101,7 +101,7 @@ backgroundSize: contain
 
 ---
 layout: image-right
-image: /bookmark-link-copied.png
+image: /bookmarks/2026-02/bookmark-link-copied.png
 backgroundSize: contain
 ---
 

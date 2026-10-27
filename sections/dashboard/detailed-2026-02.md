@@ -44,7 +44,7 @@ Monitor your replication rules
 
 <div>
 
-<img src="/latest-rules-widget.png" class="rounded-lg shadow-lg" />
+<img src="/dashboard/2026-02/latest-rules-widget.png" class="rounded-lg shadow-lg" />
 
 </div>
 
@@ -89,7 +89,7 @@ Visualize your RSE quotas
 
 <div>
 
-<img src="/storage_usage-widget.png" class="rounded-lg shadow-lg" />
+<img src="/dashboard/2026-02/storage_usage-widget.png" class="rounded-lg shadow-lg" />
 
 </div>
 

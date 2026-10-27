@@ -5,7 +5,7 @@ layout: default
 # Streamed Tables
 Efficient Data Listing & Management
 
-<img src="/rules-table.png" class="m-auto rounded shadow-lg" style="max-height: 550px;" />
+<img src="/streamed-tables/2026-02/rules-table.png" class="m-auto rounded shadow-lg" style="max-height: 550px;" />
 ---
 layout: default
 ---

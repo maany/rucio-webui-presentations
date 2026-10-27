@@ -4,7 +4,7 @@ layout: default
 
 # Command Palette
 Your Universal Navigation Tool
-<img src="/command-palette.png" class="m-auto rounded shadow-lg" style="max-height: 500px;" />
+<img src="/command-palette/2026-02/command-palette.png" class="m-auto rounded shadow-lg" style="max-height: 500px;" />
 ---
 layout: default
 ---

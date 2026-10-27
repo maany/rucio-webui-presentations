@@ -41,7 +41,7 @@ class: text-center
 ## Step 1: Login Page
 Choose your authentication method
 
-<img src="/login_page.png" class="m-auto rounded shadow-lg" style="max-height: 400px;" />
+<img src="/oidc/2026-02/login_page.png" class="m-auto rounded shadow-lg" style="max-height: 400px;" />
 
 ---
 layout: center
@@ -51,7 +51,7 @@ class: text-center
 ## Step 2: Identity Provider Authorization
 Grant access to your identity and profile
 
-<img src="/oidc_login_atlas_iam.png" class="m-auto rounded shadow-lg" style="max-height: 400px;" />
+<img src="/oidc/2026-02/oidc_login_atlas_iam.png" class="m-auto rounded shadow-lg" style="max-height: 400px;" />
 
 ---
 layout: center
@@ -61,7 +61,7 @@ class: text-center
 ## Step 3: Welcome to Rucio!
 Successfully authenticated and ready to use
 
-<img src="/webui_dashboard_post_oidc.png" class="m-auto rounded shadow-lg" style="max-height: 400px;" />
+<img src="/oidc/2026-02/webui_dashboard_post_oidc.png" class="m-auto rounded shadow-lg" style="max-height: 400px;" />
 
 ---
 layout: default

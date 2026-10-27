@@ -5,7 +5,7 @@ layout: default
 # Tips Feature
 Context-Aware Help System
 
-<img src="/tipd-sidebar.png" class="m-auto rounded shadow-lg" style="max-height: 550px;" />
+<img src="/tips/2026-02/tipd-sidebar.png" class="m-auto rounded shadow-lg" style="max-height: 550px;" />
 ---
 layout: two-cols
 ---
