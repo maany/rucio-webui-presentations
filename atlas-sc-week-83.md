@@ -1,5 +1,5 @@
 ---
-title: Rucio WebUI — ATLAS S&C Week #83
+title: "Rucio WebUI — ATLAS S&C Week #83"
 date: 2026-02-08
 src: ./events/atlas-sc-week-83/intro.md
 ---

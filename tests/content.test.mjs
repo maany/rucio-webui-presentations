@@ -30,6 +30,7 @@ test('every deck at the repo root is valid', async () => {
 test('atlas-sc-week-83 has the same slides, in order, as before the migration', async () => {
   const deck = await loadDeck(root, 'atlas-sc-week-83')
   assert.deepEqual(deck.slideTitles, ATLAS_BASELINE)
+  assert.equal(deck.title, 'Rucio WebUI — ATLAS S&C Week #83')
   assert.equal(deck.date, '2026-02-08')
 })
 
