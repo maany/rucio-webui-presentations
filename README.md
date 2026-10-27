@@ -6,7 +6,8 @@ Slidev decks for the Rucio WebUI talks given at different events, built from a s
 
 ```bash
 npm install
-npm run dev -- atlas-sc-week-83.md       # present or edit one deck at http://localhost:3030
+npm run dev                              # present or edit the newest deck at http://localhost:3030
+npm run dev -- atlas-sc-week-83          # …or a specific one
 npm run build                            # validate + build every deck into dist/
 npm run build -- atlas-sc-week-83        # build just one deck
 npm run preview                          # serve dist/ like Vercel does, at http://localhost:4173

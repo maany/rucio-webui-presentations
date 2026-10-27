@@ -3,7 +3,7 @@ import { mkdirSync, mkdtempSync, writeFileSync } from 'node:fs'
 import os from 'node:os'
 import path from 'node:path'
 import { test } from 'node:test'
-import { imageRefs, listDeckSlugs, loadDeck, renderIndex, selectDecks, validateDeck } from '../scripts/lib/decks.mjs'
+import { imageRefs, listDeckSlugs, loadDeck, newestDeck, renderIndex, selectDecks, validateDeck } from '../scripts/lib/decks.mjs'
 
 function fixture(files) {
   const root = mkdtempSync(path.join(os.tmpdir(), 'decks-'))
@@ -89,4 +89,29 @@ test('renderIndex: newest first, escaped titles, links per slug', () => {
   assert.ok(html.includes('ATLAS S&amp;C &lt;Week&gt;'))
   assert.ok(!html.includes('S&C <Week>'))
   assert.ok(html.indexOf('href="/atlas-sc-week-83/"') < html.indexOf('href="/old-talk/"'))
+})
+
+test('validateDeck: title that YAML parses as a mapping is rejected', async () => {
+  const root = fixture({ 'talk.md': deck('./s.md', 'date: 2026-01-01\ntitle: Rucio: ATLAS\n'), 's.md': '# One\n' })
+  assert.deepEqual(validateDeck(root, await loadDeck(root, 'talk')), ['headmatter "title" must be plain text; wrap it in quotes'])
+})
+
+test('validateDeck: unquoted # in the title is rejected', async () => {
+  const root = fixture({ 'talk.md': deck('./s.md', 'title: ATLAS Week #83\ndate: 2026-01-01\n'), 's.md': '# One\n' })
+  assert.deepEqual(validateDeck(root, await loadDeck(root, 'talk')), ['headmatter "title" has an unquoted "#", which YAML treats as a comment; wrap it in quotes'])
+})
+
+test('validateDeck: quoted # in the title is fine', async () => {
+  const root = fixture({ 'talk.md': deck('./s.md', 'title: "ATLAS Week #83"\ndate: 2026-01-01\n'), 's.md': '# One\n' })
+  const d = await loadDeck(root, 'talk')
+  assert.equal(d.title, 'ATLAS Week #83')
+  assert.deepEqual(validateDeck(root, d), [])
+})
+
+test('newestDeck: picks the latest date, slug breaks ties', () => {
+  assert.equal(newestDeck([
+    { slug: 'b-talk', date: '2026-02-08' },
+    { slug: 'c-talk', date: '2025-01-01' },
+    { slug: 'a-talk', date: '2026-02-08' },
+  ]), 'a-talk')
 })

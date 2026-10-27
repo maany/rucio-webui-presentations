@@ -6,6 +6,8 @@ import { load } from '@slidev/parser/fs'
 
 const SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/
 const DATE = /^\d{4}-\d{2}-\d{2}$/
+// An unquoted title with " #" loses everything after it: YAML reads it as a comment.
+const UNQUOTED_HASH = /^title\s*:\s*[^"'\s].*\s#/
 // Absolute public-dir references: <img src="/x">, ![](/x), and image:/background: frontmatter.
 const IMAGE_REF = /(?:src=["']|\]\(|^\s*(?:image|background):\s*["']?)(\/(?!\/)[^"'()\s]+)/gm
 
@@ -41,10 +43,13 @@ export async function loadDeck(root, slug) {
   const entry = path.resolve(root, `${slug}.md`)
   const data = await load({ userRoot: path.dirname(entry) }, entry)
   // Raw headmatter as written: data.headmatter falls back to the first slide's heading for a missing title.
-  const head = data.entry?.slides?.[0]?.frontmatter ?? {}
+  const first = data.entry?.slides?.[0]
+  const head = first?.frontmatter ?? {}
   return {
     slug,
-    title: head.title == null ? '' : String(head.title),
+    // Kept as parsed: an unquoted "a: b" title comes back as an object, which validateDeck rejects.
+    title: head.title ?? '',
+    titleLine: (first?.frontmatterRaw ?? '').split('\n').find(l => /^title\s*:/.test(l)) ?? '',
     date: head.date == null ? '' : String(head.date),
     slideTitles: data.slides.map(s => s.title ?? ''),
     images: [...new Set(data.slides.flatMap(slideImages))],
@@ -55,7 +60,9 @@ export async function loadDeck(root, slug) {
 export function validateDeck(root, deck) {
   const problems = []
   if (!SLUG.test(deck.slug)) problems.push(`file name "${deck.slug}.md" must be lowercase words joined by hyphens`)
-  if (!deck.title) problems.push('headmatter is missing "title"')
+  if (deck.title === '') problems.push('headmatter is missing "title"')
+  else if (typeof deck.title !== 'string') problems.push('headmatter "title" must be plain text; wrap it in quotes')
+  else if (UNQUOTED_HASH.test(deck.titleLine ?? '')) problems.push('headmatter "title" has an unquoted "#", which YAML treats as a comment; wrap it in quotes')
   if (!DATE.test(deck.date)) problems.push('headmatter "date" must be YYYY-MM-DD')
   if (deck.slideTitles.length === 0) problems.push('deck has no slides')
   for (const img of deck.images) {
@@ -69,9 +76,15 @@ export function escapeHtml(s) {
   return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', '\'': '&#39;' })[c])
 }
 
+const byNewest = (a, b) => b.date.localeCompare(a.date) || a.slug.localeCompare(b.slug)
+
+export function newestDeck(decks) {
+  return [...decks].sort(byNewest)[0]?.slug
+}
+
 export function renderIndex(decks) {
   const items = [...decks]
-    .sort((a, b) => b.date.localeCompare(a.date) || a.slug.localeCompare(b.slug))
+    .sort(byNewest)
     .map(d => `      <li><a href="/${escapeHtml(d.slug)}/"><span>${escapeHtml(d.title)}</span><time datetime="${escapeHtml(d.date)}">${escapeHtml(d.date)}</time></a></li>`)
     .join('\n')
   return `<!doctype html>
