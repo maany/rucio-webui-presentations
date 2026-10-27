@@ -15,5 +15,10 @@
   },
   "devDependencies": {
     "@iconify-json/heroicons": "^1.2.3"
+  },
+  "overrides": {
+    "dompurify": "^3.4.17",
+    "image-size": "^2.0.4",
+    "katex": "^0.18.2"
   }
 }
