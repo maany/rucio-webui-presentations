@@ -56,7 +56,7 @@ Questions?
 
 <div class="pt-10 text-sm">
 
-Rucio bot ships behind <code>FEATURE_ASSISTANT</code>, off by default
+Rucio bot will be feature gated behind <code>FEATURE_ASSISTANT</code>, off by default
 
 **Rucio WebUI Team**
 
