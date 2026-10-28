@@ -411,6 +411,61 @@ img {
   background: var(--neutral-800);
 }
 
+.dark strong {
+  color: var(--neutral-100);
+}
+
+.dark em {
+  color: var(--neutral-300);
+}
+
+.dark a {
+  color: var(--brand-400);
+}
+
+.dark a:hover {
+  color: var(--brand-300);
+}
+
+.dark blockquote {
+  background: var(--neutral-800);
+  color: var(--neutral-300);
+}
+
+.dark .slidev-layout.section {
+  background: var(--neutral-800);
+  color: var(--neutral-100);
+}
+
+.dark .slidev-layout.section h1,
+.dark .text-brand {
+  color: var(--brand-400);
+}
+
+.dark .text-success {
+  color: var(--success-500);
+}
+
+.dark .text-error {
+  color: var(--error-500);
+}
+
+.dark .text-warning {
+  color: var(--warning-500);
+}
+
+.dark .text-info {
+  color: var(--info-500);
+}
+
+.dark .bg-brand,
+.dark .bg-success,
+.dark .bg-error,
+.dark .bg-warning,
+.dark .bg-info {
+  background: var(--neutral-800);
+}
+
 /* Utility classes */
 .text-brand {
   color: var(--brand-600);
