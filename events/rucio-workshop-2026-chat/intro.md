@@ -3,7 +3,8 @@ layout: cover
 class: text-center
 ---
 
-# Rucio Chat
+# Rucio bot
+An AI assistant inside the Rucio WebUI
 
 <div class="pt-8">
   <p class="text-lg">Mayank Sharma</p>
@@ -16,3 +17,9 @@ class: text-center
     Rucio Workshop 2026
   </span>
 </div>
+
+<!--
+Hi everyone. This talk is about Rucio bot, the AI assistant we built into the Rucio WebUI.
+It lives on the feat/assistant-bot branch, behind a feature flag that is off by default.
+Plan: what it is, how it is built, how we kept it safe, then a live demo and what comes next.
+-->

@@ -7,7 +7,8 @@ Slidev decks for the Rucio talks (WebUI and related tools) given at different ev
 | Deck | Talk | Event | Date |
 |---|---|---|---|
 | `rucio-workshop-2026-webui` | Rucio WebUI: What's New, What's Next, and How to Get Started | Rucio Workshop 2026 | 2026-10-30 |
-| `rucio-workshop-2026-chat` | Rucio Chat | Rucio Workshop 2026 | 2026-10-28 |
+| `rucio-workshop-2026-chat` | Rucio bot: an AI assistant in the Rucio WebUI | Rucio Workshop 2026 | 2026-10-28 |
+| `rucio-workshop-2026-chat-short` | Rucio bot: an AI assistant in the Rucio WebUI, short version | Rucio Workshop 2026 | 2026-10-28 |
 | `atlas-sc-week-83` | Rucio WebUI | ATLAS Software & Computing Week #83 | 2026-02-08 |
 
 ## Run, build, export
@@ -37,6 +38,7 @@ style.css, uno.config.ts, components/      shared by every deck
 ## Rules
 
 - A deck always points at an exact variant and version, e.g. `src: ./sections/oidc/minimal-2026-10.md`.
+- To reuse only some slides of a file, add a range: `src: ./sections/rucio-bot-security/detailed-2026-10.md#1-2,4` (slides counted from 1 inside that file). `rucio-workshop-2026-chat-short` is built this way.
 - **A section version that has been presented is read-only.** To change it, copy it to a new version and edit the copy, so past decks keep what was shown.
 - Shared styling (`style.css`, `uno.config.ts`) is not versioned: restyling changes how every deck looks.
 
