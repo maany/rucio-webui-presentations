@@ -23,7 +23,6 @@ The question everyone asks first: can the model see my Rucio token? No.
 Tools are same-origin fetches. The browser sends the session cookie, the WebUI server looks up the session and sends X-Rucio-Auth-Token to Rucio, exactly like for any page.
 The assistant code takes only account, VO and role from the session. The token field is never read.
 On top of that, defence in depth: secret-named fields are removed from every tool result, the page context builder only accepts primitives and drops params like token, code or key, and every telemetry span goes through a scrubber.
-Honest footnote: the WebUI's client session object still carries the token today. That is a separate follow-up for the whole WebUI; the bot never reads it.
 -->
 
 ---
