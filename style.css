@@ -295,6 +295,26 @@ button:focus {
   color: var(--info-900);
 }
 
+/* Opt-in density helpers for table- and code-heavy slides (slide frontmatter: class: table-compact) */
+.table-compact table {
+  margin: var(--spacing-2) 0;
+}
+
+.table-compact th,
+.table-compact td {
+  padding: 0.3rem 0.6rem;
+}
+
+.code-xs pre,
+.code-xs .slidev-code {
+  font-size: 0.68rem !important;
+  line-height: 1.35 !important;
+}
+
+.list-tight li {
+  margin-bottom: 0.15rem;
+}
+
 /* Slide-specific styles */
 .slidev-layout.cover,
 .slidev-layout.intro {
