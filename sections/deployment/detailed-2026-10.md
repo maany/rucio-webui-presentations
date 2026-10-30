@@ -243,7 +243,7 @@ layout: default
 ```
 
 <div class="grid grid-cols-3 gap-4 mt-4 text-sm">
-  <div class="bg-neutral-100 dark:bg-neutral-800 rounded-lg p-3">Unset means the core default: <strong>on</strong></div>
+  <div class="bg-neutral-100 dark:bg-neutral-800 rounded-lg p-3">Not set: core features stay <strong>on</strong>, integrations stay <strong>off</strong></div>
   <div class="bg-neutral-100 dark:bg-neutral-800 rounded-lg p-3">A parent switched off wins over its children</div>
   <div class="bg-neutral-100 dark:bg-neutral-800 rounded-lg p-3">Disabled pages and APIs answer 404</div>
 </div>
