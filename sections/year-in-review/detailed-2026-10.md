@@ -15,7 +15,7 @@ layout: default
 
 # A year in numbers
 
-<div class="grid grid-cols-4 gap-4 mt-6">
+<div class="grid grid-cols-3 gap-4 mt-6">
 
 <div class="bg-neutral-100 dark:bg-neutral-800 rounded-xl p-5 text-center">
   <div class="text-4xl font-bold text-brand-600">21</div>
@@ -32,11 +32,6 @@ layout: default
   <div class="text-sm mt-1">ATLAS production rollouts in 10 months</div>
 </div>
 
-<div class="bg-neutral-100 dark:bg-neutral-800 rounded-xl p-5 text-center">
-  <div class="text-4xl font-bold text-brand-600">377</div>
-  <div class="text-sm mt-1">commits since 39.0.0</div>
-</div>
-
 </div>
 
 <div class="grid grid-cols-4 gap-4 mt-4 text-sm">
@@ -48,7 +43,7 @@ layout: default
 
 <div class="mt-8 text-sm text-neutral-600 dark:text-neutral-400">
 
-Also this year: Next.js 16, React 19, Tailwind v4, dark mode, accessibility tests, Playwright end-to-end tests, and a `release-38-LTS` line that carries security fixes only (including the React2Shell CVE).
+Also this year: Next.js 16, React 19, Tailwind v4, accessibility tests, Playwright end-to-end tests, and a `release-38-LTS` line that carries security fixes only.
 
 </div>
 
