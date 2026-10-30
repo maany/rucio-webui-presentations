@@ -74,7 +74,7 @@ layout: default
 
 <div class="bg-neutral-100 dark:bg-neutral-800 rounded-xl p-4">
   <div class="flex items-center gap-2 mb-2"><span class="i-heroicons-chart-bar w-6 h-6 text-brand-600"/><span class="font-semibold text-neutral-900 dark:text-neutral-100">DDM dashboard links</span></div>
-  <p class="text-sm !leading-snug !mb-0">Each rule lock links to the transfers in the DDM Grafana dashboard, next to its FTS link</p>
+  <p class="text-sm !leading-snug !mb-0">Each rule lock links to its transfers in the DDM Grafana dashboard, next to its FTS link. For ATLAS and CMS</p>
 </div>
 
 <div class="bg-neutral-100 dark:bg-neutral-800 rounded-xl p-4">
