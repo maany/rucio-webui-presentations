@@ -5,10 +5,6 @@ src: ./events/rucio-workshop-2026-webui/intro.md
 ---
 
 ---
-src: ./events/rucio-workshop-2026-webui/agenda.md
----
-
----
 src: ./sections/year-in-review/detailed-2026-10.md
 ---
 
