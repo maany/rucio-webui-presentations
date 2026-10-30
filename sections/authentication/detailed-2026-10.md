@@ -3,7 +3,7 @@ layout: default
 class: code-xs
 ---
 
-# Authentication: three methods, your choice
+# Authentication
 
 <div class="grid grid-cols-5 gap-6 mt-2">
 
