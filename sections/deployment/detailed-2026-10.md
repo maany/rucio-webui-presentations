@@ -131,6 +131,7 @@ curl -s localhost/api/ping     # {"status":"ok","version":"41.1.0"}
 <!--
 The smallest working deployment on 41.1.0: two Rucio hosts, where the WebUI lives, a session secret, a project link, a name for the default VO, and the CA bundle.
 NODE_EXTRA_CA_CERTS is needed on 41.x only; the next image sets it from SERVER_CA_BUNDLE.
+With the next release this drops to 5 variables and the CA file: PROJECT_URL and the VO name become optional, NEXTAUTH_URL is derived from HOSTNAME, and the container starts in seconds because it no longer builds at boot.
 Note the secret: last year's slide said AUTH_SECRET, but 41.x reads NEXTAUTH_SECRET. Without it, every boot picks a random secret and every replica a different one.
 /api/ping is the health check: it answers with the version.
 -->
@@ -312,44 +313,6 @@ The Helm chart is only a mapping from values to the same environment variables.
 config.webui keys become RUCIO_WEBUI_ variables, oidc_providers become per-provider variables, vo becomes per-VO variables.
 Secrets go through additionalEnvs with secretKeyRef, so they never sit in the values file.
 Flux and Argo add nothing new on top: they deliver these values and the secrets.
--->
-
----
-layout: default
----
-
-# Three ways to run it
-
-<div class="grid grid-cols-3 gap-4 mt-4">
-
-<div class="border-2 border-brand-500 rounded-xl p-4">
-  <div class="font-semibold text-neutral-900 dark:text-neutral-100 mb-2">TLS in the container</div>
-  <p class="text-sm !leading-snug">httpd terminates TLS with your host certificate. A LoadBalancer on 443 in front.</p>
-  <p class="text-xs !mb-0 opacity-75">How ATLAS runs it</p>
-</div>
-
-<div class="bg-neutral-100 dark:bg-neutral-800 rounded-xl p-4">
-  <div class="font-semibold text-neutral-900 dark:text-neutral-100 mb-2">TLS at the ingress</div>
-  <p class="text-sm !leading-snug">Your ingress or load balancer terminates TLS; httpd listens on 80. Set <code>NEXTAUTH_URL</code> to the public <code>https://</code> URL.</p>
-</div>
-
-<div class="bg-neutral-100 dark:bg-neutral-800 rounded-xl p-4">
-  <div class="font-semibold text-neutral-900 dark:text-neutral-100 mb-2">No httpd</div>
-  <p class="text-sm !leading-snug">Run <code>next start</code> on port 3000 behind any proxy or tunnel, with the unprefixed variable names.</p>
-  <p class="text-xs !mb-0 opacity-75">How our demo instance runs</p>
-</div>
-
-</div>
-
-<div class="mt-6 border-2 border-dashed border-neutral-400 rounded-xl p-4">
-  <div class="font-semibold text-neutral-900 dark:text-neutral-100 mb-1">With the next release</div>
-  <p class="text-sm !mb-0">Hello world drops to <strong>5 variables and one CA file</strong>: <code>NEXTAUTH_URL</code> comes from <code>HOSTNAME</code>, the CA variable is exported for you, and the container starts in seconds because it no longer builds at boot.</p>
-</div>
-
-<!--
-All three are real deployments today.
-The first is ATLAS. The second is common on Kubernetes clusters with an ingress controller. The third is how the demo instance on beast runs, behind a Cloudflare tunnel.
-After the three PRs land, PROJECT_URL and the VO name get defaults, NEXTAUTH_URL is derived, and NODE_EXTRA_CA_CERTS is set from SERVER_CA_BUNDLE.
 -->
 
 ---
