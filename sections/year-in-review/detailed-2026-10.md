@@ -78,7 +78,7 @@ layout: default
   </ul>
 </div>
 
-<div class="border-2 border-brand-500 rounded-xl p-4">
+<div class="bg-neutral-100 dark:bg-neutral-800 rounded-xl p-4">
   <div class="flex items-center justify-between mb-2"><span class="font-semibold text-neutral-900 dark:text-neutral-100">40.x</span><span class="text-xs opacity-60">Apr to Jul 2026</span></div>
   <ul class="text-xs !leading-snug !pl-4">
     <li><strong>First write operations release</strong>: boost, lifetime, comment, approve, deny, delete rules</li>
@@ -88,8 +88,8 @@ layout: default
   </ul>
 </div>
 
-<div class="bg-neutral-100 dark:bg-neutral-800 rounded-xl p-4">
-  <div class="flex items-center justify-between mb-2"><span class="font-semibold text-neutral-900 dark:text-neutral-100">41.x</span><span class="text-xs opacity-60">Jul to Oct 2026</span></div>
+<div class="border-2 border-brand-500 rounded-xl p-4">
+  <div class="flex items-center justify-between mb-2"><span class="font-semibold text-neutral-900 dark:text-neutral-100">41.x</span><span class="text-xs opacity-60">current, Jul to Oct 2026</span></div>
   <ul class="text-xs !leading-snug !pl-4">
     <li><strong>Feature flags</strong></li>
     <li>ATLAS AMI tags and PanDA task links</li>
