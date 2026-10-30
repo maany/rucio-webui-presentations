@@ -87,7 +87,7 @@ layout: default
 Counted command by command against main, so account management, which ships next, counts as covered. The tables are in the appendix.
 Reads are about two thirds covered. The missing reads are things like scope list, rule history, content history, distances, QoS and config.
 Writes are where the gap is, and almost half of the missing writes are infrastructure administration that most users never touch.
-Against the old UI: 17 pages have a full equivalent. 6 of the 14 missing pages are ATLAS-only and need a decision: port them behind a flag, or retire them.
+Against the old UI: 17 pages have a full equivalent.
 -->
 
 ---
@@ -111,14 +111,9 @@ layout: default
 
 </div>
 
-<div class="mt-6 bg-neutral-100 dark:bg-neutral-800 rounded-xl p-4 text-sm">
-  <strong>ATLAS-only old pages, port or retire?</strong> Rule backlog monitor, group account usage, ConditionsDB and DBRelease summaries, dumps, infrastructure links
-</div>
-
 <!--
 Grouped by area; each line names the CLI command or old UI page it comes from in the appendix.
 Some are already moving: PFNs in replica views is an open PR, OpenData pages are in review.
-The ATLAS-only pages are a question for ATLAS: several of them are thin wrappers around dumps or links, so a feature-flagged page may not be worth it.
 -->
 
 ---
@@ -144,7 +139,6 @@ layout: default
   <div class="bg-neutral-100 dark:bg-neutral-800 rounded-lg px-3 py-2">Daemon heartbeats</div>
 </div>
 
-<div class="text-xs mt-3 text-neutral-600 dark:text-neutral-400">Plus the 6 ATLAS-only pages: port them behind a flag, or retire them?</div>
 
 </div>
 
@@ -169,6 +163,5 @@ The goal for the coming cycle: switch off the old Flask UI by March 2027.
 On the left are the old UI views that have no WebUI equivalent yet; everything else in the old UI is already covered.
 We do not know which of these each community actually uses, and that decides the order we build them in. So the ask is simple: tell us what you use, today, on Mattermost, or in a GitHub issue.
 The same goes for CLI features you would rather do in a browser: DID management, rule move, history, and so on.
-And for ATLAS: the six ATLAS-only pages, such as the rule backlog monitor and the ConditionsDB summary. Several are thin wrappers around dumps or links, so they may not be worth porting.
 Also on the way, from Wednesday's talk: Rucio bot, the assistant inside the WebUI, behind FEATURE_ASSISTANT and off by default.
 -->
