@@ -77,13 +77,13 @@ class: table-compact
 <div class="font-semibold text-neutral-900 dark:text-neutral-100 mb-2">How</div>
 
 - **Use it** and tell us what is missing: open an issue
-- **Vote** on the priorities from "What's next"
+- **Tell us** which old UI views you still need before March 2027
 - **Deploy it** for your community and share your config
 - **Contribute**: `npm run dev` against your Rucio, Storybook for components, tests under `test/`
 
 <div class="bg-neutral-100 dark:bg-neutral-800 rounded-xl p-4 mt-6 text-sm">
-  <div><span class="i-heroicons-chat-bubble-left-right w-5 h-5 text-brand-600 align-middle"/> Rucio WebUI channel on Mattermost</div>
-  <div class="mt-1"><span class="i-heroicons-code-bracket w-5 h-5 text-brand-600 align-middle"/> github.com/rucio/webui</div>
+  <div><span class="i-heroicons-chat-bubble-left-right inline-block w-5 h-5 text-brand-600 align-middle mr-1"/> Rucio WebUI channel on Mattermost</div>
+  <div class="mt-1"><span class="i-heroicons-code-bracket inline-block w-5 h-5 text-brand-600 align-middle mr-1"/> github.com/rucio/webui</div>
 </div>
 
 </div>

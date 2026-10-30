@@ -125,55 +125,50 @@ The ATLAS-only pages are a question for ATLAS: several of them are thin wrappers
 layout: default
 ---
 
-# Proposed priorities
+# Retiring the old WebUI by March 2027
 
-<div class="grid grid-cols-3 gap-4 mt-4">
+<div class="grid grid-cols-5 gap-6 mt-4">
 
-<div class="border-2 border-brand-500 rounded-xl p-4">
-  <div class="font-semibold text-neutral-900 dark:text-neutral-100 mb-2">1 · Retire the old UI</div>
-  <ul class="text-sm !leading-snug !pl-4">
-    <li>Subscription editor</li>
-    <li>RSE attributes, protocols, settings</li>
-    <li>Examine stuck rules</li>
-    <li>Bad replica summary</li>
-    <li>Per-RSE quotas, approval settings, country admins</li>
-    <li>Lifetime exceptions</li>
-  </ul>
+<div class="col-span-3">
+
+<div class="font-semibold text-neutral-900 dark:text-neutral-100 mb-2">Old UI views still to bring over</div>
+
+<div class="grid grid-cols-2 gap-2 text-sm">
+  <div class="bg-neutral-100 dark:bg-neutral-800 rounded-lg px-3 py-2">Subscription editor</div>
+  <div class="bg-neutral-100 dark:bg-neutral-800 rounded-lg px-3 py-2">Add RSE, protocols, attributes</div>
+  <div class="bg-neutral-100 dark:bg-neutral-800 rounded-lg px-3 py-2">Examine a stuck rule</div>
+  <div class="bg-neutral-100 dark:bg-neutral-800 rounded-lg px-3 py-2">Bad replica summary and list</div>
+  <div class="bg-neutral-100 dark:bg-neutral-800 rounded-lg px-3 py-2">Quotas per RSE, approval settings</div>
+  <div class="bg-neutral-100 dark:bg-neutral-800 rounded-lg px-3 py-2">Lifetime exceptions</div>
+  <div class="bg-neutral-100 dark:bg-neutral-800 rounded-lg px-3 py-2">Browser download, metalink</div>
+  <div class="bg-neutral-100 dark:bg-neutral-800 rounded-lg px-3 py-2">Daemon heartbeats</div>
 </div>
 
-<div class="bg-neutral-100 dark:bg-neutral-800 rounded-xl p-4">
-  <div class="font-semibold text-neutral-900 dark:text-neutral-100 mb-2">2 · Power users</div>
-  <ul class="text-sm !leading-snug !pl-4">
-    <li>DID management (routes exist)</li>
-    <li>Rule move and full rule update</li>
-    <li>PFNs in replica views (open PR)</li>
-    <li>Rule and content history</li>
-    <li>Downloads and metalinks</li>
-    <li>Permissions from the server policy</li>
-  </ul>
+<div class="text-xs mt-3 text-neutral-600 dark:text-neutral-400">Plus the 6 ATLAS-only pages: port them behind a flag, or retire them?</div>
+
 </div>
 
-<div class="bg-neutral-100 dark:bg-neutral-800 rounded-xl p-4">
-  <div class="font-semibold text-neutral-900 dark:text-neutral-100 mb-2">3 · Operators</div>
-  <ul class="text-sm !leading-snug !pl-4">
-    <li>RSE distances, limits, QoS</li>
-    <li>Scopes, server config, heartbeats</li>
-    <li>OpenTelemetry</li>
-    <li>OIDC together with multi-VO</li>
-    <li>OpenData pages (in review)</li>
-  </ul>
+<div class="col-span-2 border-2 border-brand-500 rounded-xl p-5">
+
+<div class="font-semibold text-neutral-900 dark:text-neutral-100 text-lg">Which of these does your community use?</div>
+
+<p class="text-sm !leading-snug mt-2">Tell us which views and features matter to you, from this list or from the CLI gaps, and we will prioritise them.</p>
+
+<div class="text-sm mt-4 space-y-2">
+  <div><span class="i-heroicons-chat-bubble-left-right inline-block w-5 h-5 text-brand-600 align-middle mr-1"/> Talk to us today</div>
+  <div><span class="i-heroicons-hashtag inline-block w-5 h-5 text-brand-600 align-middle mr-1"/> Rucio WebUI channel on Mattermost</div>
+  <div><span class="i-heroicons-code-bracket inline-block w-5 h-5 text-brand-600 align-middle mr-1"/> An issue on github.com/rucio/webui</div>
 </div>
 
 </div>
 
-<div class="mt-5 text-center text-lg font-semibold text-neutral-900 dark:text-neutral-100">
-  Which three would you move up? Tell us today, on Mattermost, or on GitHub.
 </div>
 
 <!--
-This is a proposal, and the point of this slide is to get your input.
-Column one is what blocks switching off the old UI for good.
-Column two is what makes the WebUI a real alternative to the CLI for daily work.
-Column three is for the people running Rucio itself.
+The goal for the coming cycle: switch off the old Flask UI by March 2027.
+On the left are the old UI views that have no WebUI equivalent yet; everything else in the old UI is already covered.
+We do not know which of these each community actually uses, and that decides the order we build them in. So the ask is simple: tell us what you use, today, on Mattermost, or in a GitHub issue.
+The same goes for CLI features you would rather do in a browser: DID management, rule move, history, and so on.
+And for ATLAS: the six ATLAS-only pages, such as the rule backlog monitor and the ConditionsDB summary. Several are thin wrappers around dumps or links, so they may not be worth porting.
 Also on the way, from Wednesday's talk: Rucio bot, the assistant inside the WebUI, behind FEATURE_ASSISTANT and off by default.
 -->
