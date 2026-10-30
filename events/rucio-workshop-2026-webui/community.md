@@ -4,11 +4,11 @@ layout: default
 
 # Welcome, Tomasz
 
-<div class="grid grid-cols-5 gap-8 mt-6 items-start">
+<div class="grid grid-cols-5 gap-8 mt-4 items-start">
 
-<div class="col-span-2 bg-neutral-100 dark:bg-neutral-800 rounded-xl p-6 text-center">
-  <span class="i-heroicons-user-circle w-20 h-20 text-brand-600"/>
-  <div class="text-2xl font-semibold text-neutral-900 dark:text-neutral-100 mt-2">Tomasz Paja</div>
+<div class="col-span-2 bg-neutral-100 dark:bg-neutral-800 rounded-xl p-4 text-center">
+  <img src="/events/rucio-workshop-2026-webui/tomasz-paja.jpg" class="rounded-lg w-full object-cover" style="height: 230px;" alt="Tomasz Paja at CERN, next to the I love CERN sign" />
+  <div class="text-2xl font-semibold text-neutral-900 dark:text-neutral-100 mt-3">Tomasz Paja</div>
   <div class="text-sm opacity-75">Technical student, Rucio WebUI</div>
   <div class="text-sm mt-2"><code>@pajka2T</code> on GitHub</div>
 </div>
