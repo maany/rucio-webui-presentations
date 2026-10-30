@@ -21,7 +21,7 @@ class: table-compact
 
 <div class="bg-neutral-100 dark:bg-neutral-800 rounded-xl p-4">
   <div class="font-semibold text-neutral-900 dark:text-neutral-100 mb-1">Cadence</div>
-  <p class="text-xs !leading-snug !mb-0">39.0.0 went live on 2025-12-17. About 20 production rollouts since, including two same-day patch releases and one rollback.</p>
+  <p class="text-xs !leading-snug !mb-0">ATLAS's production UI since March 2025. Every release line since 39 rolled out to production; now on 41.1.0.</p>
 </div>
 
 </div>
@@ -44,7 +44,7 @@ class: table-compact
 </div>
 
 <!--
-ATLAS has run the new WebUI as its production UI since December 2025.
+ATLAS has run the new WebUI as its production UI since March 2025, and has followed every release line since.
 Setup in one breath: Flux HelmRelease of the rucio-webui chart, secrets encrypted with SOPS, TLS terminated by httpd in the container, OIDC with ATLAS IAM only, and the three ATLAS flags on.
 The table is the honest part: real users with real subscription names found bugs our tests did not. The answer was small patch releases, fast.
 -->
