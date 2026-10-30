@@ -20,39 +20,43 @@ layout: default
 <div class="bg-neutral-100 dark:bg-neutral-800 rounded-xl p-5 text-center">
   <div class="text-4xl font-bold text-brand-600">21</div>
   <div class="text-sm mt-1">releases, 39.0.0 to 41.1.0</div>
+  <div class="text-xs mt-2 opacity-75">plus 8 security releases on the 38 LTS line</div>
 </div>
 
 <div class="bg-neutral-100 dark:bg-neutral-800 rounded-xl p-5 text-center">
   <div class="text-4xl font-bold text-brand-600">1 → 21</div>
-  <div class="text-sm mt-1">write actions (9 released in 41.1, the rest on main)</div>
+  <div class="text-sm mt-1">write actions</div>
+  <div class="text-xs mt-2 opacity-75">9 released in 41.1, the rest on main</div>
 </div>
 
 <div class="bg-neutral-100 dark:bg-neutral-800 rounded-xl p-5 text-center">
-  <div class="text-4xl font-bold text-brand-600">~20</div>
-  <div class="text-sm mt-1">ATLAS production rollouts in 10 months</div>
+  <div class="text-4xl font-bold text-brand-600">0 → 16</div>
+  <div class="text-sm mt-1">feature flags</div>
+  <div class="text-xs mt-2 opacity-75">each community picks what its users see</div>
 </div>
 
 </div>
 
-<div class="grid grid-cols-4 gap-4 mt-4 text-sm">
+<div class="grid grid-cols-3 gap-4 mt-4 text-sm">
   <div class="text-center"><strong>10 → 14</strong> pages</div>
   <div class="text-center"><strong>37 → 61</strong> API routes</div>
   <div class="text-center"><strong>87 → 225</strong> test files</div>
-  <div class="text-center"><strong>100 → 149</strong> Storybook stories</div>
 </div>
 
 <div class="mt-8 text-sm text-neutral-600 dark:text-neutral-400">
 
-Also this year: Next.js 16, React 19, Tailwind v4, accessibility tests, Playwright end-to-end tests, and a `release-38-LTS` line that carries security fixes only.
+Also this year: Next.js 16, React 19, Tailwind v4, accessibility tests, Playwright end-to-end tests.
 
 </div>
 
 <!--
-Counts from rucio/webui main (792fa5d3, Oct 26) against the 39.0.0 tag.
+Counts from rucio/webui: GitHub releases since the 2025 workshop, and main (Oct 26) against the 39.0.0 tag.
 39.0.0 was cut in December, so last year's talk showed pre-release 39 work.
+The LTS line, release-38-LTS, carries security fixes only, for communities that cannot upgrade every month.
 The 1 to 21 is the headline: last year the only thing you could change from the WebUI was creating a rule.
 41.1 has 9 write actions: create, boost, update lifetime, comment, approve, deny, delete and force delete rules, and declare replicas bad.
 Main adds 12 account actions: create, edit, suspend, reactivate, delete; add, edit, delete attributes; add, delete identities; set, delete quotas.
+Feature flags arrived in 41.0: 16 on main, so a community can switch off pages or writes it does not want and opt in to integrations.
 -->
 
 ---
