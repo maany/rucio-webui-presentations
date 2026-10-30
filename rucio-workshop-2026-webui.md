@@ -9,7 +9,7 @@ src: ./sections/year-in-review/detailed-2026-10.md
 ---
 
 ---
-src: ./sections/atlas-production/detailed-2026-10.md
+src: ./sections/community-requests/detailed-2026-10.md
 ---
 
 ---

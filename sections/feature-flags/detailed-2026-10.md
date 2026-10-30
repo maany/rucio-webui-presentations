@@ -15,8 +15,8 @@ class: code-xs list-tight
 
 <div class="border-2 border-warning-500 rounded-xl p-3">
   <div class="flex items-center gap-2 mb-2"><span class="i-heroicons-puzzle-piece w-6 h-6 text-brand-600"/><span class="font-semibold text-neutral-900 dark:text-neutral-100">Community integrations</span></div>
-  <p class="text-sm !leading-snug">Opt in, default <strong>off</strong>. ATLAS-specific code is not even loaded unless enabled.</p>
-  <p class="text-xs !mb-0"><code>FEATURE_DIDS_AMI_TAGS</code> <code>FEATURE_DIDS_PANDA_TASK</code> <code>FEATURE_DDM_DASHBOARD</code></p>
+  <p class="text-sm !leading-snug">Opt in, default <strong>off</strong>. The AMI and PanDA code is not even loaded unless enabled.</p>
+  <p class="text-xs !mb-0"><code>FEATURE_DIDS_AMI_TAGS</code> <code>FEATURE_DIDS_PANDA_TASK</code> ATLAS<br/><code>FEATURE_DDM_DASHBOARD</code> ATLAS, CMS</p>
 </div>
 
 <div class="border-2 border-error-500 rounded-xl p-3">

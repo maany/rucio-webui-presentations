@@ -52,7 +52,7 @@ class: table-compact
 | Area | Read | Write | Since |
 |---|---|---|---|
 | **DIDs** | search by type and metadata, contents, parents, rules, replicas | | 39 |
-| **Rules** | list, details, locks with FTS and DDM links | create, boost, lifetime, comment, approve, deny, delete | 40 |
+| **Rules** | list, details, locks with FTS links (DDM links for ATLAS, CMS) | create, boost, lifetime, comment, approve, deny, delete | 40 |
 | **Approvals** | queue of rules waiting for approval | approve and deny, single or bulk | 40 |
 | **Replicas** | suspicious replicas by RSE, age, attempts | declare bad, single or bulk | 40.1 |
 | **RSEs** | list by RSE expression, attributes, protocols, usage | | 39 |

@@ -197,7 +197,7 @@ In the container and Helm chart, prefix each with `RUCIO_WEBUI_`. Values: `true`
 | `FEATURE_DIDS_MUTATE` | on | DID write routes |
 | `FEATURE_ACCOUNTS` | on | account pages (next release) |
 | `FEATURE_ACCOUNTS_MANAGE` and `_CORE`, `_IDENTITIES`, `_ATTRIBUTES`, `_QUOTAS` | on | account writes (next release) |
-| `FEATURE_DDM_DASHBOARD` + `DDM_DASHBOARD_BASE_URL` | off | DDM links on rule locks |
+| `FEATURE_DDM_DASHBOARD` + `DDM_DASHBOARD_BASE_URL` | off | DDM dashboard links on rule locks (ATLAS, CMS) |
 | `FEATURE_DIDS_AMI_TAGS` + `AMI_BASE_URL` | off | ATLAS AMI tag chips |
 | `FEATURE_DIDS_PANDA_TASK` + `PANDA_BASE_URL` | off | ATLAS PanDA task links |
 

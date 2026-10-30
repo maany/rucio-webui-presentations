@@ -235,7 +235,7 @@ layout: default
 # No rule approval workflow in this community
 -e RUCIO_WEBUI_FEATURE_RULES_APPROVE=false
 # Opt-in integrations
--e RUCIO_WEBUI_FEATURE_DDM_DASHBOARD=true
+-e RUCIO_WEBUI_FEATURE_DDM_DASHBOARD=true         # ATLAS, CMS
 -e RUCIO_WEBUI_DDM_DASHBOARD_BASE_URL="https://grafana.example.org/d/<id>/<slug>?orgId=1"
 -e RUCIO_WEBUI_FEATURE_DIDS_PANDA_TASK=true      # ATLAS
 -e RUCIO_WEBUI_FEATURE_DIDS_AMI_TAGS=true        # ATLAS, needs the CERN Grid CA in the bundle
