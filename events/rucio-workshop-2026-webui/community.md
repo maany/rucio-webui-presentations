@@ -93,7 +93,7 @@ class: table-compact
 <!--
 44 open issues, grouped into eight themes.
 The six on the left are small, well scoped and a good way to learn the codebase; each one touches a single table or page.
-The most useful contribution for most communities is feedback: deploy it, tell us what you miss, and vote on the priorities.
+The most useful contribution for most communities is feedback: deploy it, tell us what you miss, and tell us which old UI views you still need.
 -->
 
 ---
