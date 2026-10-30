@@ -15,7 +15,7 @@ layout: default
 
 <div class="col-span-3">
 
-<div class="font-semibold text-neutral-900 dark:text-neutral-100 mb-2">10 merged pull requests since August</div>
+<div class="font-semibold text-neutral-900 dark:text-neutral-100 mb-2">Merged pull requests</div>
 
 - Multi-select filters for every enum column in every table
 - "No rows match your filters" overlay
@@ -30,7 +30,7 @@ layout: default
 </div>
 
 <!--
-Tomasz joined the WebUI team this summer as a technical student and has already shipped ten pull requests.
+Tomasz joined the WebUI team as a technical student and has already shipped a good number of pull requests.
 Many of the table improvements in 41.1 are Tomasz's work.
 If you open an issue in the coming months, there is a good chance Tomasz will be the one picking it up.
 -->
